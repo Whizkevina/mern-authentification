@@ -25,7 +25,7 @@ const userSchema = new mongoose.Schema({
     maxlength: 1024
   },
   passwordResetToken: { type: String, default: "" },
-  passwordResetExpires: { type: Date, default: Date("2018/06/06") },
+  passwordResetExpires: { type: Date, default: Date("2020/06/06") },
   isVerified: {
     type: Boolean,
     required: true,
